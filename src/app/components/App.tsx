@@ -7,7 +7,17 @@ import Search from "./Search";
 import img from "./img.png";
 const App = () => {
   const [data, setData] = useState([]);
-
+  //   A: 86,
+  //   "A-": 82,
+  //   "B+": 78,
+  //   B: 74,
+  //   "B-": 70,
+  //   "C+": 66,
+  //   C: 62,
+  //   "C-": 58,
+  //   "D+": 54,
+  //   D: 50,
+  // });
   // weightages
   const [assignmentWeightage, setAssignmentWeightage] = useState(20);
   const [quizWeightage, setQuizWeightage] = useState(20);
@@ -45,9 +55,7 @@ const App = () => {
   ]);
 
   return (
-    <div className="min-h-screen -m-10 flex flex-col justify-center items-center">
-      <h1 className="text-3xl">Result Calculator</h1>
-
+    <div className="flex flex-col justify-center items-center">
       {data.length !== 0 && (
         <Search
           selectedType={selectedType}
@@ -211,8 +219,9 @@ const App = () => {
           </tbody>
         </table>
       ) : (
-        <Image src={img} width={1000} alt="sample table"/>
+        <Image src={img} width={1000} alt="sample table" />
       )}
+
       <FileInputButton data={data} setData={setData} />
     </div>
   );

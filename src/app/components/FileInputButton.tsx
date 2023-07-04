@@ -1,5 +1,5 @@
 "use client";
-import XLSX from 'xlsx';
+import * as XLSX from 'xlsx';
 
 function ExcelToJson({ data, setData }: any) {
   const handleFileUpload = (e: any) => {
@@ -17,7 +17,7 @@ function ExcelToJson({ data, setData }: any) {
   };
 
   return (
-    <div className="relative">
+    <div className="relative my-4">
       <input
         type="file"
         accept=".xlsx, .xls"
