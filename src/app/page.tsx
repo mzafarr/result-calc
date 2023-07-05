@@ -3,7 +3,7 @@ import App from "./components/App";
 export default function Home() {
   return (
     <>
-      <nav className="flex justify-between bg-slate-600 text-center text-white">
+      <nav className="px-8 flex justify-between bg-slate-600 text-center text-white">
         <h1 className="text-2xl font-semibold  py-4">
           Result Calculator
         </h1>

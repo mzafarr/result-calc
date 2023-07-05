@@ -33,7 +33,6 @@ const Search = ({selectedType, setSelectedType,
         <option value="False" selected>Sort By</option>
         <option value="Name">Name</option>
         <option value="CGPA">CGPA</option>
-        <option value="Grade">Grade</option>
       </select>
     </div>
   );

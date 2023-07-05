@@ -52,9 +52,6 @@ const FilledCells: React.FC<FCProps> = ({
       case "CGPA":
         displayData.sort((a, b) => b.CGPA - a.CGPA);
         break;
-      case "Grade":
-        displayData.sort((a, b) => a.Grade - b.Grade);
-        break;
     }
   }
 
