@@ -219,7 +219,7 @@ const App = () => {
           </tbody>
         </table>
       ) : (
-        <Image src={img} width={1000} alt="sample table" />
+        <Image src={img} width={1000} alt="sample table" className="my-4"/>
       )}
 
       <FileInputButton data={data} setData={setData} />
