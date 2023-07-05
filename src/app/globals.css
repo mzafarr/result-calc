@@ -5,4 +5,7 @@
 select{
   padding: 5px;
   border-radius: 5px;
+   border-style: solid;
+  border-color: #e2e8f0;
+  border-width: 1px;
 }
