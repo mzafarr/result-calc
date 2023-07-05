@@ -16,7 +16,7 @@ const Search = ({selectedType, setSelectedType,
       />
 
       <select
-        className="mx-2 font-sans cursor-pointer px-3 py-2.5 rounded-md"
+        className="mx-2 font-sans cursor-pointer px-3 py-2.5 rounded-md border"
         value={selectedType}
         onChange={(e) => setSelectedType(e.target.value)}
       >
@@ -26,7 +26,7 @@ const Search = ({selectedType, setSelectedType,
       </select>
 
       <select
-        className="mx-2 font-sans cursor-pointer px-3 py-2.5 rounded-md"
+        className="mx-2 font-sans cursor-pointer px-3 py-2.5 rounded-md border"
         value={sortType}
         onChange={(e) => setSortType(e.target.value)}
       >
