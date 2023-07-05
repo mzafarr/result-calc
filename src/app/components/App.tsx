@@ -7,17 +7,7 @@ import Search from "./Search";
 import img from "./img.png";
 const App = () => {
   const [data, setData] = useState([]);
-  //   A: 86,
-  //   "A-": 82,
-  //   "B+": 78,
-  //   B: 74,
-  //   "B-": 70,
-  //   "C+": 66,
-  //   C: 62,
-  //   "C-": 58,
-  //   "D+": 54,
-  //   D: 50,
-  // });
+
   // weightages
   const [assignmentWeightage, setAssignmentWeightage] = useState(20);
   const [quizWeightage, setQuizWeightage] = useState(20);
