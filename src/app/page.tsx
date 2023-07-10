@@ -5,9 +5,9 @@ export default function Home() {
     <>
       <nav className="px-8 flex justify-between bg-slate-600 text-center text-white">
         <h1 className="text-2xl font-semibold  py-4">Result Calculator</h1>
-        <div>
-          <a href="https://github.com/mzafarr/result-calc" target="_blank">
-            <button className="rounded-lg border-2 w-full border-slate-700 bg-slate-700 py-2 px-5  text-white font-medium  text-lg hover:scale-105 hover:shadow-lg duration-300 mx-3">
+        <div className="flex items-center gap-2">
+          <a href="https://github.com/mzafarr/result-calc" target="_blank" className=" mx-3">
+            <button className="rounded-lg border-2 w-full border-slate-700 bg-slate-700 py-2 px-5  text-white font-medium  text-lg hover:scale-105 hover:shadow-lg duration-300">
               Code
             </button>
           </a>
