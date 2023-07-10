@@ -6,3 +6,6 @@ select{
   padding: 5px;
   border-radius: 5px;
 }
+table {
+  max-width: 95vw;
+}
